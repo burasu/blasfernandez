@@ -88,7 +88,7 @@
 
         <!-- sobre mi -->
         <section class="aboutme" id="aboutme">
-            <div class="container">
+            <article class="container">
                 <div class="heading">
                     <h2>Sobre mi</h2>
                 </div>
@@ -100,19 +100,19 @@
                             construcción y mantenimiento de aplicaciones y sitios web. Con amplios conocimientos en programación HTML5, CSS3, Javascript
                             y PHP con conexión a distintas bases de datos, en diseño gráfico y animación multimedia.</p>
                         <p>En constante evolución profesional y personal.</p>
-                        <a href="#" class="bntDownload">Descargar Curriculum Vitae</a>
+                        <a href="https://www.dropbox.com/s/ilxhenzhqbt13vk/CV_Blas_Fernandez.pdf?dl=0" class="bntDownload" target="_blank">Descargar Curriculum Vitae</a>
                     </div>
                     <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic">
                         <img src="images/avatar.png" alt="" class="img-circle topmar">
                     </div>
                 </div>
-            </div>
+            </article>
         </section>
         <!-- fin sobre mi-->
 
         <!-- inicio habilidades -->
         <section class="technical" id="technical">
-            <div class="container">
+            <article class="container">
                 <div class="heading">
                     <h2>Habilidades</h2>
                 </div>
@@ -125,7 +125,7 @@
                         <span>Subversion</span>
                     </span>
                 </div>
-            </div>
+            </article>
         </section>
         <!-- fin habilidades -->
 
@@ -135,7 +135,7 @@
                 <div class="heading">
                     <h2>Experiencia Laboral</h2>
                 </div>
-                <div class="row workDetails">
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">
                             Abr, 2012<br>Actualmente
@@ -153,8 +153,8 @@
                                transformación y migración de datos entre distintas aplicaciones.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">
                             Ene, 2011<br>Mar, 2012
@@ -171,8 +171,8 @@
                                Así como soporte telefónico a los clientes.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">
                             Feb, 2008<br>Mar, 2010
@@ -189,8 +189,8 @@
                                 programación de mandos, entre otros.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">
                             Jul, 2001<br>Ago, 2007
@@ -209,8 +209,8 @@
                                 distintas aplicaciones. Creación de folletos y trípticos publicitarios de los servicios ofertados.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">
                             Abr, 2001<br>Jun, 2001
@@ -227,8 +227,8 @@
                                 los conocimientos aplicados.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">
                             Sep, 2000<br>Ene, 2001
@@ -244,8 +244,8 @@
                                 dípticos, trípticos y calendarios. Labores de docente en suplencia de algún miembro de la plantilla.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">
                             1999
@@ -259,7 +259,7 @@
                             <p>Desarrollo y creación de páginas Web. Realización de módulos de aplicaciones informáticas.</p>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </section>
         <!-- fin experiencia-->
@@ -270,7 +270,7 @@
                 <div class="heading">
                     <h2>Formación Académica y Complementaria</h2>
                 </div>
-                <div class="row workDetails">
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">Sep, 2014</div>
                     </div>
@@ -282,8 +282,8 @@
                             <p>Curso online en la plataforma de Mejorando.la para obtener el certificado de programador profesional de PHP.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">Oct, 2013</div>
                     </div>
@@ -295,8 +295,8 @@
                             <p>Curso de 40 horas en el que se formó sobre los nuevos métodos de programación de páginas web con HTML5 y CSS3.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">Feb, 2013</div>
                     </div>
@@ -308,8 +308,8 @@
                             <p>Curso de 420 horas en el que se formó sobre los métodos y técnicas para la prevención y seguridad en empresas.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">Sep, 2000</div>
                     </div>
@@ -321,8 +321,8 @@
                             <p>Curso de Formación Ocupacional de 300 horas en el que se formó con las nociones básicas en el desarrollo de páginas webs con el uso de HTML y CSS.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">Jun, 2000</div>
                     </div>
@@ -334,8 +334,8 @@
                             <p>Curso de Formación Ocupacional de 600 horas en el que se formó en el uso de herramientas tales como Adobe Photoshop, Adobe Premiere, 3D Studio Max, etc...</p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">Jun, 1999</div>
                     </div>
@@ -347,8 +347,8 @@
                             <p></p>
                         </div>
                     </div>
-                </div>
-                <div class="row workDetails">
+                </article>
+                <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">May, 1996</div>
                     </div>
@@ -360,7 +360,7 @@
                             <p></p>
                         </div>
                     </div>
-                </div>
+                </article>
 
             </div>
         </section>
@@ -412,7 +412,7 @@
 
         <!-- inicio contacto-->
         <section class="contactDetails" id="contact">
-            <div class="container">
+            <article class="container">
                 <!--contact info start-->
                 <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
                     <h4>Datos de contacto</h4>
@@ -434,13 +434,13 @@
                     </form>
                 </div>
                 <!--contact form end-->
-            </div>
+            </article>
         </section>
         <!-- fin contacto -->
 
         <!-- pie inicio -->
         <section class="footer" id="footer">
-            <div class="container">
+            <article class="container">
                 <ul>
                     <li><a href="https://twitter.com/burasu76"><i class="fa fa-twitter fa-2x"></i></a></li>
                     <li><a href="https://www.facebook.com/blas.fernandez"><i class="fa fa-facebook fa-2x"></i></a></li>
@@ -448,7 +448,7 @@
                     <li><a href="https://github.com/burasu"><i class="fa fa-github fa-2x"></i></a></li>
                     <li><a href="https://plus.google.com/117413562029193433068/posts"><i class="fa fa-google-plus fa-2x"></i></a></li>
                 </ul>
-            </div>
+            </article>
         </section>
         <!-- pie fin -->
 
