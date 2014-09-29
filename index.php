@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="es"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="es"> <![endif]-->
@@ -40,7 +41,9 @@
             <!-- inicio banner -->
             <div class="banner row" id="banner">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="height:100%">
-                    <div class="bannerPart"> <img src="images/back_header.png" alt="" class="bannerImg"> </div>
+                    <div class="bannerPart">
+                        <img src="images/back_header.png" alt="" class="bannerImg">
+                    </div>
                 </div>
             </div>
             <!-- fin banner -->
@@ -85,7 +88,6 @@
             <!-- fin de menu -->
         </header>
 
-
         <!-- sobre mi -->
         <section class="aboutme" id="aboutme">
             <article class="container">
@@ -117,14 +119,64 @@
                     <h2>Habilidades</h2>
                 </div>
 
-                <div id="tagsinput_tagsinput" class="tagsinput" style="height: 100%;">
-                    <span class="tag">
-                        <span>Git</span>
-                        <span>MySQL</span>
-                        <span>JavaScript</span>
-                        <span>Subversion</span>
-                    </span>
+                <div id="tagsinput_tagsinput" class="bootstrap-tagsinput col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height: 100%;">
+
+                    <span class="tag label info">C / C++</span>
+                    <span class="tag label info">Aptana Studio 3</span>
+                    <span class="tag label info">MySQL</span>
+
+                    <span class="tag label info">Visual Basic</span>
+                    <span class="tag label info">Sublime Text 2</span>
+                    <span class="tag label info">PostgreSQL</span>
+
+                    <span class="tag label info">C#</span>
+                    <span class="tag label info">Coda 2</span>
+                    <span class="tag label info">Firebird</span>
+
+                    <span class="tag label info">Borland Delphi 5</span>
+                    <span class="tag label info">Adobe Dreamweaver</span>
+                    <span class="tag label info">Interbase</span>
+
+                    <span class="tag label info">Objective-C</span>
+                    <span class="tag label info">Microsoft Office</span>
+
+                    <span class="tag label info">PHP</span>
+                    <span class="tag label info">NetBeans</span>
+
+                    <span class="tag label info">SQL</span>
+                    <span class="tag label info">PHPStorm</span>
+
+                    <span class="tag label info">Codeigniter</span>
+                    <span class="tag label info">OSX</span>
+
+                    <span class="tag label info">Laravel 4</span>
+
+                    <span class="tag label info">JavaScript</span>
+
+                    <span class="tag label info">jQuery</span>
+                    <span class="tag label info">MAMP</span>
+
+                    <span class="tag label info">HTML5</span>
+
+                    <span class="tag label info">CSS3</span>
+                    <span class="tag label info">Microsoft Windows</span>
+
+                    <span class="tag label info">PrestaShop</span>
+
+                    <span class="tag label info">Adobe Photoshop</span>
+
+                    <span class="tag label info">Git</span>
+                    <span class="tag label info">XAMPP</span>
+
+                    <span class="tag label info">Subversion</span>
+
+                    <span class="tag label info">Wordpress</span>
+
+                    <span class="tag label info">JSON</span>
+
+
                 </div>
+
             </article>
         </section>
         <!-- fin habilidades -->
@@ -147,10 +199,10 @@
                             <h4>Soluciones de Sistemas y Gestión, S.L.</h4>
                             <h5>Analista / Programador</h5>
                             <p>Mantenimiento, desarrollo y soporte de las aplicaciones desarrolladas en lenguaje Delphi.
-                               Desarrollo de aplicaciones en entorno web realizando conexiones a bases de datos a través de ODBC y PostGreSQL.
-                               Mantenimiento y gestión del servicio de newsletter de la empresa. Implicado en el diseño de la interfaz de usuario de las
-                               aplicaciones para plataformas Android y Windows Mobile. Soporte telefónico a clientes. Proceso de conversión,
-                               transformación y migración de datos entre distintas aplicaciones.</p>
+                                Desarrollo de aplicaciones en entorno web realizando conexiones a bases de datos a través de ODBC y PostGreSQL.
+                                Mantenimiento y gestión del servicio de newsletter de la empresa. Implicado en el diseño de la interfaz de usuario de las
+                                aplicaciones para plataformas Android y Windows Mobile. Soporte telefónico a clientes. Proceso de conversión,
+                                transformación y migración de datos entre distintas aplicaciones.</p>
                         </div>
                     </div>
                 </article>
@@ -166,9 +218,9 @@
                             <h4>Fernando Barroso Vázquez</h4>
                             <h5>Programador</h5>
                             <p>Contratado como apoyo para la plantilla de Surgés Informática, S.L. realicé funciones de
-                               programación y mantenimiento de las aplicaciones desarrolladas en lenguaje Delphi por esta
-                               empresa. Proceso de conversión, transformación y migración de datos entre distintas aplicaciones.
-                               Así como soporte telefónico a los clientes.</p>
+                                programación y mantenimiento de las aplicaciones desarrolladas en lenguaje Delphi por esta
+                                empresa. Proceso de conversión, transformación y migración de datos entre distintas aplicaciones.
+                                Así como soporte telefónico a los clientes.</p>
                         </div>
                     </div>
                 </article>
@@ -375,35 +427,55 @@
                 <div class="portfolioFilter">
                     <ul>
                         <li><a href="#" data-filter="*" class="current">Todo</a></li>
-                        <li><a href="#" data-filter=".photos">Webs</a></li>
-                        <li><a href="#" data-filter=".branding">Experimentos</a></li>
-                        <li><a href="#" data-filter=".illustration">Illustration</a></li>
+                        <li><a href="#" data-filter=".web">Webs</a></li>
+                        <li><a href="#" data-filter=".experiment">Experimentos</a></li>
+                        <li><a href="#" data-filter=".illustration">Ilustración</a></li>
                     </ul>
                 </div>
                 <ul class="portfolioContainer row">
-                    <li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/1.jpg" title="Project Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image1" alt=""  > </div>
+                    <li class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <span class="hoverBox">
+                                <span class="smallIcon">
+                                    <a rel="lightbox-demo" href="images/portfolio/big/dneda.png" title="Dneda complementos" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>
+                                    <a href="http://dneda.es" title="Dneda complementos" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a>
+                                </span>
+                            </span>
+                            <img src="images/portfolio/thumb/dneda.png" alt="Dneda complementos"  >
+                        </div>
                     </li>
-                    <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image2" alt="" > </div>
+                    <li class="web experiment col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <span class="hoverBox">
+                                <span class="smallIcon">
+                                    <a href="http://bweather.herokuapp.com" title="bweather site" target="_blank" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></i></a>
+                                    <a href="https://github.com/burasu/bweather" title="Repositorio" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a>
+                                </span>
+                            </span>
+                            <img src="images/portfolio/thumb/bweather.png" alt="bWeather - mini app de tiempo" >
+                        </div>
+                    </li>
+                    <li class="web experiment col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <span class="hoverBox">
+                                <span class="smallIcon">
+                                    <a href="http://blocator.herokuapp.com" title="blocator site" target="_blank" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></i></a>
+                                    <a href="https://github.com/burasu/blocator" title="Repositorio" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a>
+                                </span>
+                            </span>
+                            <img src="images/portfolio/thumb/blocator.png" alt="bLocator - mini app de geolocalización con JSON" >
+                        </div>
                     </li>
                     <li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image3" alt="" > </div>
-                    </li>
-                    <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image4" alt="" > </div>
-                    </li>
-                    <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image5" alt="" > </div>
-                    </li>
-                    <li class="branding photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image6" alt="" > </div>
-                    </li>
-                    <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image7" alt="" > </div>
-                    </li>
-                    <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                        <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image8" alt="" > </div>
+                        <div class="lightCon">
+                            <span class="hoverBox">
+                                <span class="smallIcon">
+                                    <a rel="lightbox-demo" href="images/portfolio/big/dneda_logo.png" title="Logo Dneda" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>
+                                    <a href="http://dneda.es" title="Dneda complementos" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a>
+                                </span>
+                            </span>
+                            <img src="images/portfolio/thumb/dneda_logo.png" alt="Logo Dneda" >
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -425,7 +497,7 @@
                 <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
                     <h4>Envía un mensaje</h4>
                     <div id="message"></div>
-                    <form method="post" action="php/contact.php" name="cform" id="cform">
+                    <form method="post" action="includes/contact.php" name="cform" id="cform">
                         <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Tu nombre..." >
                         <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Tu email..." >
                         <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Tu mensaje..."></textarea>
@@ -524,14 +596,14 @@
     <script type="text/javascript" src="js/jquery.contact.js"></script>
 
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+/*        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-782583-8', 'auto');
         ga('send', 'pageview');
-
+*/
     </script>
 
 </body>
