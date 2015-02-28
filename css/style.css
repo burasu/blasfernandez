@@ -771,6 +771,9 @@ header{
 	border-left-color: #e5e4e4;
 }
 
+.linkExperience, .linkExperience:hover {
+	color: #474d5d;
+}
 
 
 

@@ -139,6 +139,7 @@
 
                     <span class="tag label info">Objective-C</span>
                     <span class="tag label info">Microsoft Office</span>
+                    <span class="tag label info">GitHub</span>
 
                     <span class="tag label info">PHP</span>
                     <span class="tag label info">NetBeans</span>
@@ -326,14 +327,27 @@
                 </div>
                 <article class="row workDetails">
                     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                        <div class="workYear">Enero, 2015</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                        <div class="arrowpart"></div>
+                        <div class="exCon">
+                            <h4>Curso Profesional de GIT y GitHub</h4>
+                            <h5>Platzi by Mejorando.la</h5>
+                            <p>Curso online en la plataforma de <a class="linkExperience" href="http://www.platzi.com/" target="_blank">Platzi by Mejorando.la</a> para obtener el certificado de uso y conocimiento de la herramienta Git así como el uso y aprovechamiento de la web de GitHub.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="row workDetails">
+                    <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                         <div class="workYear">Sep, 2014</div>
                     </div>
                     <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
                         <div class="arrowpart"></div>
                         <div class="exCon">
                             <h4>Curso Profesional de PHP</h4>
-                            <h5>Mejorando.la</h5>
-                            <p>Curso online en la plataforma de Mejorando.la para obtener el certificado de programador profesional de PHP.</p>
+                            <h5>Platzi by Mejorando.la</h5>
+                            <p>Curso online en la plataforma de <a class="linkExperience" href="http://www.platzi.com/" target="_blank">Platzi by Mejorando.la</a> para obtener el certificado de programador profesional de PHP.</p>
                         </div>
                     </div>
                 </article>
@@ -450,7 +464,7 @@
                         <div class="lightCon">
                             <span class="hoverBox">
                                 <span class="smallIcon">
-                                    <a href="http://bweather.herokuapp.com" title="bweather site" target="_blank" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></i></a>
+                                    <a href="http://burasu.github.io/bweather" title="bweather site" target="_blank" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></i></a>
                                     <a href="https://github.com/burasu/bweather" title="Repositorio" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a>
                                 </span>
                             </span>
